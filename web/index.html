@@ -1,0 +1,282 @@
+<html>
+    <head>
+        <title>web page</title>
+    </head>
+    <body>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            .container{
+                display:flex;
+                gap:100px;
+            }
+            .div1{
+                padding: 0px;
+                margin: 0px;
+                height: 1000px;
+                background-image: url(front.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            button{
+                background-color: transparent;
+                color: black;
+                height: 50px;
+                width: 95px;
+                border: 2px solid black;
+                border-radius: 50px;
+            }
+            button:hover{
+                background-color: red;
+                color: aliceblue;
+                border: 2px solid white;
+            }
+            .p1{
+                line-height: 2px;
+                padding: 20px;
+                font-weight: bold;
+                font-size: larger;
+            }
+            .p2{
+                line-height: 2px;
+                padding: 20px;
+                font-size: large;
+            }
+            li{
+                display:inline-block;
+                background-color: white;
+                width:220px;
+                text-align: justify;
+                font-size: large;
+                padding:30px;
+                border: 2px solid;
+                border-radius: 95px;
+             }
+            ul{
+                display:flex;
+                flex-wrap: warp;
+                padding: 40px;
+                width: 90%;  
+                justify-content: space-evenly;
+                gap: 30px;           
+            }
+            img{
+                font-size: 40px;
+                margin-bottom: 15px;
+                width: 50px;
+                height: 50px;
+            }
+            ul p{
+                text-align: justify;
+            }
+            li:hover{
+                background-color: goldenrod;
+            }
+            a{
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            .div2{
+                height: 150px;
+                width: 100%;
+                background-color: red;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .div2 h1{
+                display:flex;
+                display:inline-block;
+                width: 50%;
+                color: aliceblue;
+            }
+            .div2 button{
+                border-radius: 25%;
+            }
+            h1,p{
+                text-align: center;
+                line-height: 1.6;
+            }
+            #continer{
+                display: grid;
+                height: 500px;
+                justify-content: center;
+            }
+            .div3{
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                gap: 20px;
+                
+            }
+            .indiv{
+                min-width: 150px;
+                min-height: 150px;
+                background-color: green;
+                border-radius: 20px;
+                transition: transform 0.3s ease;
+                transform-origin: center;
+            }
+            .div4{
+                line-height: 100px;
+                height: fit-content;
+                width: fit-content;
+                text-align: center;
+                padding-top :10px;
+                padding-left: 500px;
+                padding-right: 550px;
+               
+            }
+            .div4 button{
+                text-decoration: none;
+                color: black;
+                border: 2px solid ;
+                border-radius: 0%;    
+            }
+            .in1{
+                background-image: url(bg1.jpg);
+                background-size: cover;
+            }
+            .in1:hover{
+                box-shadow: 10px 10px 5px black;
+            }
+            .in2{
+                background-image: url(back.jpg);
+                background-size: cover;
+            }
+            .in2:hover{
+                box-shadow: 10px 10px 5px black;
+            }
+            .in3{
+                background-image: url(bg3.png);
+                background-size: cover;
+            }
+            .in3:hover{
+                box-shadow: 10px 10px 5px black;
+            }
+            .in4{
+                background-image: url(bg4.webp);
+                background-size: cover;
+            }
+            .in4:hover{
+                box-shadow: 10px 10px 5px black;
+            }
+            .in5{
+                background-image: url(bg5.jpg);
+                background-size: cover;
+            }
+            .in5:hover{
+                box-shadow: 10px 10px 5px black;
+            }
+            .in6{
+                background-image: url(bg6.webp);
+                background-size: cover;
+            }
+            .in6:hover{
+                box-shadow: 10px 10px 5px black;
+            }
+            .in7{
+                background-image: url(bg7.JPG);
+                background-size: cover;
+            }
+            .in7:hover{
+                box-shadow: 10px 10px 5px black;
+            }
+            .in8{
+                background-image: url(bg8.jpg);
+                background-size: cover;
+            }
+            .in8:hover{
+                box-shadow: 10px 10px 5px black;
+            }
+            footer{
+                text-align: center;
+                line-height: 50px;  
+                background-color: bisque;
+            }
+           
+        </style>
+        <div class="container">
+        <header>
+        <div class="div1">
+            <p class="p1">WELCOME TO STYLISH FACTORY</p>
+            <p class="p2">come and buy your fav</p>
+            <center>
+                <a href="login.html" target="_blank">
+                <button onclick="Login" >Login</button></a>
+                <a href="reg.html" target="_blank">
+                <button onclick="Register">Register</button></a></center>
+        </div></header>
+        <section>
+        <h1>OUR FACTORY ITEMS</h1>
+        <p> Come and get your fit and comfort.</p>
+        <ul>
+            <li>
+                <img src="videoimg.png" >
+                <h3>Style</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nihil.</p>
+                <a href="#">click me</a></li>
+            <li>
+                <img src="columns_4.png" >
+                <h3>Style</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nihil.</p>
+                <a href="#">click me</a></li>
+            <li>
+                <img src="set2.png" >
+                <h3>Style</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nihil.</p>
+                <a href="#">click me</a></li>
+            <li>
+                <img src="cloud.webp" >
+                <h3>Style</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nihil.</p>
+                <a href="#">click me</a></li>
+        </ul>
+        <div class="div2">
+            <h1>CONTACT US</h1>
+            <button >click me to call</button><br>
+        </div>
+        <div id="continer">
+        <h1>WE HAVE SOME VARIETY FOR YOU</h1>
+        <p>Womens,Mens,Baby cloths and accessories and footwear are available here</p>
+        <div class="div3">
+        <div class="indiv in1" ></div>
+        <div class="indiv in2" ></div>
+        <div class="indiv in3" ></div>
+        <div class="indiv in4" ></div>
+        <div class="indiv in5" ></div>
+        <div class="indiv in6" ></div>
+        <div class="indiv in7" ></div>
+        <div class="indiv in8" ></div>
+        </div></div>
+        <hr>
+        <h1>CONTACT FORM</h1>
+        <p>Send us a Message.</p>
+        <div class="div4">
+        <form>
+            <lable>Name:</lable>
+            <input type="text" placeholder="Name">
+            <lable>Email:</lable>
+            <input type="email" placeholder="Mail ID">
+            <label>Message:</label>
+            <textarea id="Message" row=3 placeholder="Type here"></textarea><br>
+            <button>Send Message</button>
+        </form>
+        </div>
+        </section>
+        <hr>
+        <footer>
+            Coperight Incredible.Made in Webflow.
+        </footer>
+        </div>
+    </body>
+
+</html
