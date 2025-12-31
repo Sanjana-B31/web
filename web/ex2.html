@@ -8,11 +8,11 @@
                 padding: 0px;
                 margin: 0px;
             }
-            .continer{
+            .container{
                 display:flex;
                 justify-content: center;
                 flex-direction: column;
-                gap: 100px;
+                gap: 50px;
             }
             .div1{
                 padding: 0px;
@@ -25,7 +25,6 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                
             }
             button{
                 background-color: transparent;
@@ -94,11 +93,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
+                padding-left: 250px;
+                gap: 100px;
             }
             .div2 h1{
                 display:flex;
                 display:inline-block;
-                width: 50%;
                 color: aliceblue;
             }
             .div2 button{
@@ -112,6 +112,7 @@
                 display: grid;
                 height: 500px;
                 justify-content: center;
+                
             }
             .div3{
                 display: grid;
@@ -122,7 +123,6 @@
             .indiv{
                 min-width: 150px;
                 min-height: 150px;
-                background-color: green;
                 border-radius: 20px;
                 transition: transform 0.3s ease;
                 transform-origin: center;
@@ -131,6 +131,7 @@
                 line-height: 100px;
                 height: fit-content;
                 width: fit-content;
+                justify-self: unset;
                 text-align: center;
                 padding-top :10px;
                 padding-left: 500px;
@@ -206,7 +207,7 @@
             }
            
         </style>
-        <div class="continer">
+        <div class="container">
         <header>
         <div class="div1">
             <p class="p1">WELCOME TO STYLISH FACTORY</p>
@@ -219,7 +220,7 @@
         </div></header>
         <section>
         <h1>OUR FACTORY ITEMS</h1>
-        <p> Come and get your fit and comfort.<br><br></p>
+        <p> Come and get your fit and comfort.</p>
         <ul>
             <li>
                 <img src="videoimg.png" >
@@ -258,8 +259,8 @@
         <div class="indiv in6" ></div>
         <div class="indiv in7" ></div>
         <div class="indiv in8" ></div>
-        </div></div>
-        <hr>
+        </div></div><br>
+        <hr><br>
         <h1>CONTACT FORM</h1>
         <p>Send us a Message.</p>
         <div class="div4">
@@ -267,7 +268,7 @@
             <lable>Name:</lable>
             <input type="text" placeholder="Name">
             <lable>Email:</lable>
-            <input type="email" placeholder="Mail ID">
+            <input type="email" placeholder="Mail ID"><br>
             <label>Message:</label>
             <textarea id="Message" row=3 placeholder="Type here"></textarea><br>
             <button>Send Message</button>
@@ -281,4 +282,3 @@
         </div>
     </body>
 </html>
-
